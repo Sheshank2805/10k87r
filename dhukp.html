@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dhukp homes</title>
+    <style>
+        .top{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    margin-top: 0;
+    background-color: bisque;
+    width: 100%;
+}
+.right{
+    float: right!important;
+    margin-right: 20px;
+}
+.left{
+    float:left!important;
+    margin-right: 100px;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+.text{
+    position: absolute;
+}
+.bottom-left{
+    bottom: 10px;
+    left:10px;
+    background-color: blue;
+}
+.bottom-right{
+    bottom: 10px;
+    right: 10px;
+    background-color: aquamarine;
+}
+.center{
+top:40%;
+left: 40%;
+color:rgb(150,130,10);
+background-color: antiquewhite;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.grid-container{
+    display: grid
+    grid-template-columns:auto auto auto;
+    height: 100px;
+}
+.button{
+    color: rgb(210, 30, 156);
+    background-color: rgb(226, 141, 43);
+}
+.button:hover{
+    background-color:darkcyan;
+}
+@media screen and (min-width:1200px){
+    body{
+        max-width: 100%;
+        height: auto;
+    }
+}
+  @media screen and (max-width:360px){
+    body{
+        max-width:100%;
+        height: auto;
+    }
+    .grid-container{
+        max-width: 100%;
+    }
+  }
+  .right a{
+text-decoration: none;
+color: black;
+  }
+  footer{
+    background-color: darkgray;
+    margin: 10px 20px;
+padding: 10px 10px;
+  }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="left"><h3>Dhukp Homes</h3></div>
+        <div class="right"><H4><a href="#projects">Projects</a></H4></div>
+        <div class="right"><h4><a href="#About Us">About Us</a></h4></div>
+        <div class="right"><h4><a href="#Contact">Contact</a></h4></div>
+    </div>
+    <div class="image-container">
+        <img src="https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/4/2022/01/31113624/Cover-5.png" alt="dhukp" width="100%" >
+        <div class="text bottom-left">Open from 10am to 10pm</div>
+        <div class="text bottom-right">Gachibowli</div>
+        <div class="text center"><h1>Dhukp Homes</h1></div>
+    </div>
+ <center><h1 id="projects">Projects</h1></center>
+    <div class="grid-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Olj1f5CTDrcfYxgP4mzWzHqJoHJuU4haMA&usqp=CAU" alt="sofa" height="200px" width="400px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQ7bu2O0p8JL3O_OQgLsyBvBSNUo7wdz9kg&usqp=CAU" alt="sofa" height="200px" width="400px">
+    <img src="https://m.media-amazon.com/images/I/61YsAfjjwEL.jpg" alt="sk" height="200px" width="400px ">
+    <h1 id="About Us">About us:</h1>
+   <center><img src="https://img.favpng.com/22/22/23/male-avatar-user-profile-clip-art-png-favpng-D6fQkBXdkGV4QGp022dE3tPHY.jpg" alt="avatar" height="300px">
+    <h1>CEO:Bhanu Prakash</h1>
+    <p>dhukp homes - The Expression of Happiness
+        Is the best Furniture Store in the Sehore. We are dedicated to given Best Quality Furniture in Minimum Price. All Types of Furniture which you want are available on this Store. We are also trying to Manage all Furniture Design with the New Trends. When you want Quality Furniture in Low Price Please Visit Our Store. </p></center>
+        <fieldset>
+            <legend><h1 id="Contact">Contact Us</h1></legend>
+            <form>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter your name" ><br><br>
+                <label for="Email ID"><b>Email Id</b></label>
+                <input type="email" placeholder="Enter your email"><br><br>
+                <label for="Phone number"><b>Phone number</b></label>
+                <input type="number" placeholder="Enter Your Ph No"><br><br>
+                <label for="Requirment"><b>Requirment</b></label>
+                <input type="text" placeholder="Enter Your Requirment">
+
+            </form>
+        </fieldset>
+        <center><input type="button" class="button" value="Send Message">
+        <h3>Where to Find Us:</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.086984647501!2d78.36293347385026!3d17.455550300840525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93edbd20babd%3A0x45da564461069d6d!2sBkp%20homes%20Furniture!5e0!3m2!1sen!2sin!4v1685334998816!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+            <h3>dhukp homes.All Rights Reserved</h3>
+        </footer></center>
+
+    
+</body>
+</html>

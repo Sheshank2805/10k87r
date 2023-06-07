@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .image-container{
+            display: grid;
+            height: 100%;
+            width: 100%;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: 400px 400px;
+            justify-content: center;
+
+        }
+        .image-container:hover{
+            gap: 10px;
+            background-color: black;
+        }
+        @media only screen and (min-width:320px) and (max-width:768px)
+        {
+           body{
+            max-width: 100%;
+            height: auto;
+            
+         } 
+         #img{
+            width:60px!important;
+         }
+         #img1{
+            width: 60px!important;
+         }  
+          /* img	
+			{
+				border-radius:60%;
+				height:154px;
+				width:154px;
+			}  */
+
+        } 
+    </style>
+</head>
+<body>
+   <div class="image-container">
+    <img src="https://im.rediff.com/cricket/2023/jan/17kohli1.jpg" alt="" height="400px" width="800px" style="grid-column: 1/3;" >
+    <img src="https://static.toiimg.com/photo/msid-96131622/96131622.jpg" alt="" height="400px" width="400px" >
+   <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2022-09/08/full/1662657385-7641.jpg?im=FeatureCrop,width=826,height=465" alt="" height="810px" width="400px" style="grid-row: 2/4;grid-column:2/3 ;" >
+    <img src="https://www.hindustantimes.com/ht-img/img/2023/06/03/550x309/kohli_wtc_1685769996407_1685770004349.jpg" alt="" height="400px" width="400px">
+   </div> 
+</body>
+</html>

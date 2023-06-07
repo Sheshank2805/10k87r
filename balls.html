@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrome.com</title>
+    <style>
+        @keyframes up{
+            0%{position: relative;top: 0;}
+            50%{position: relative;top:20px;}
+            75%{position: relative;top:50px;}
+            100%{position:relative;top: 0;}
+        
+    }
+    @keyframes down {
+        0%{position: relative;bottom: 0;}
+            50%{position: relative;bottom:20px;}
+            75%{position: relative;bottom:50px;}
+            100%{position:relative;bottom: 0;}
+    } 
+        #ball div{
+           display: inline-block;
+        }
+       #ball{
+        margin-top: 50%;
+        margin-left: 30%;
+       }
+       #ball div:nth-child(even){
+        animation: up 2s infinite ;
+       }
+       #ball div:nth-child(odd){
+        animation: down 2s infinite;
+       }
+           
+        
+        
+        .ball1{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+            background-color: rgb(78, 78, 222);
+             
+        }
+        .ball2{
+        height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color:red;
+            
+        }
+        .ball3{
+        height:50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color:yellow;
+            
+        }
+        .ball4{
+        height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 10px;
+            background-color:green;
+            
+        }
+        .ball5{
+        height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 10px;
+            background-color:crimson;
+        }
+    </style>
+</head>
+<body>
+   <div id="ball">
+<div class="ball1" ></div>
+<div class="ball2"></div>
+<div class="ball3"></div>
+<div class="ball4"></div>
+<div class="ball5"></div>
+   </div> 
+
+</body>
+</html>

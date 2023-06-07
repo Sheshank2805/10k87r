@@ -1,0 +1,24 @@
+ul{
+background-color: blueviolet;
+position:fixed;
+top: 0;
+width: 100%;
+
+}
+ul li{
+    list-style-type: none;
+    display:  inline-block;
+    margin: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+ul a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    font-size: 32px; 
+    margin-top: 50px;
+}
+
+

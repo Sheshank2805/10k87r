@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <style>
+        .nav{
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            background-color: black;
+            width: 100%;
+             
+        }
+        .left{
+            float: left;
+            color: white;
+            margin-left: 100px;
+            padding: 10px 50px;
+            background-color:darkgray;
+
+        }
+        .left:hover{
+            background-color:bisque;
+        }
+        .left-center{
+            float: left;
+            color: white;
+            margin-left: 200px;
+            padding: 10px 50px;
+            background-color:darkgray;
+
+        }
+        .left-center:hover{
+            background-color:bisque;
+        }
+        .center{
+            float: right;
+            color: white; 
+            margin-left: 200px;
+            padding: 10px 50px;
+            background-color:darkgray;
+
+        }
+        .center:hover{
+            background-color:bisque;
+        }
+        .right{
+             float: right;
+             color: white;
+             margin-left: 100px;
+             padding: 10px 50px;
+             background-color: darkgrey;
+        }
+        .right:hover{
+            background-color:bisque;
+        }
+        .img{
+            width: 1600px;
+        }
+        .image-container{
+            position: relative;
+            display:inline-block;
+            margin-top: 20px;
+        }
+        .text{
+            position: absolute;
+        }
+        .bottom-left{
+            bottom: 10px;
+            left: 10px;
+            padding: 5px;
+            color: azure;
+            background-color: black;
+        }
+        .bottom-right{
+            bottom: 10px;
+            right: 10px;
+            font-size: 20px;
+            padding: 5px;
+            color: azure;
+            background-color: black;
+        }
+        .middle{
+            top: 20%;
+            left: 20%;
+            font-size: 50px;
+            color: azure;
+    
+        }
+        div{
+            text-align: center;
+        }
+        div h2{
+            color: azure;
+            background-color: black;
+            margin-left: 400px;
+            margin-right: 300px;
+        }
+        .bottom-middle{
+            background-color: aquamarine;
+            text-align: center;
+            font-size: 40px;
+            border-style: solid;
+            border-width: 0px 0px 0px 20px;
+            border-left-color: black;
+            
+        }
+        .bottom-middle p{
+            width: fit-content;
+        }
+        h3{
+            background-color: black;
+            color: azure;
+            width: fit-content;
+        }
+        .eat{
+            background-color: gray;
+            width: 300px;
+            float: right;
+            margin-right: 500px;
+        }
+        .Drink{
+            float: left ;
+            background-color: gray;
+            width: 300px;
+            margin-left: 500px;
+        }
+        .menu{
+            border-style:solid;
+        border-left-width: 5px ;
+        border-right-width: 5px;
+            padding: 0px;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        input{
+            width:400px;
+           
+           color: azure;
+        }
+        .btn{
+            width: 100px;
+            background-color: grey;
+            color:azure;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+        footer{
+            background-color: lightgray;
+            padding: 20px 10px;
+            color: azure;
+        }
+        footer a{
+            text-decoration: none;
+            color:black;
+        }
+        @media screen and (min-width:1200px) {
+            body{
+                width: fit-content;
+            }
+        }
+         @media screen and (max-width:390px) {
+            body{
+                width: fit-content;
+            }
+            
+         }
+            
+        
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="left"><a href="#Home" style="text-decoration: none;color: azure;">Home</a></div>
+    <div class="left-center"><a href="#About" style="text-decoration:none;color:azure">About</a></div>
+    <div class="center"><a href="#Menu" style="text-decoration: none;color: azure;">Menu</a></div>
+    <div class="right"><a href="#Where" style="text-decoration: none;color: azure;">Where</a></div>
+</div>
+<div class="image-container" id="Home">
+    <img  class="img" src="https://www.fabhotels.com/blog/wp-content/uploads/2023/02/Chaayos-min.jpg" alt="cafe" width="100%">
+    <div class="text bottom-left">Open from 9am to 10pm</div>
+    <div class="text bottom-right">15 street Mg Road</div>
+    <div class="text middle"><h2>The <br>Caffe</h2></div>
+</div><br><br>
+ <div>
+    <h2 id="About">ABOUT  THE  CAFFE</h2>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+ </div>
+ <div class="bottom-middle">
+<div class="para"><p>"Use Products From Nature for what it's worth -but never too early, nor too late."Fresh is the new sweet.</p>
+<p>Chef,coffiesit and owner:Liam Brown</p></div>
+<div class="bar"></div>
+ </div> 
+ <center><img src="https://www.w3schools.com/w3images/coffeeshop.jpg" alt="">
+    <p><b>Opening Hours:</b> everday from 6pm to 5pm</p>
+   <p><b>Address:</b> 15th street Mg Road</p><br>
+   <h3 id="Menu">The Menu</h3>
+   
+   <div class="eat">Eat</div>
+<div class="Drink">Drink</div>
+<div class="menu">
+<div class="last"><h5>Bread Basket</h5>
+<p>Assortment of fresh baked fruit breads and muffins 5.50
+</p></div>
+<div class="last"><h5>Honey Almond Granola with Fruits</h5>
+   <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p></div>
+<div class="last"><h5>Belgian Waffle</h5>
+    <p>Vanilla flavored batter with malted flour 7.50 </p></div>
+    <div class="last"><h5>Scrambled eggs</h5>
+        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p></div>
+        <div class="last"><h5>Blueberry Pancakes</h5>
+            <p>With syrup, butter and lots of berries 8.50</p></div>
+   </div><br>
+   <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="coffee"><br>
+   <h4 id="Where">where to find us</h4><br>
+<p>Find us at some address and some place</p>
+<img src="https://www.w3schools.com/w3images/map.jpg
+" alt="map" width="800px"></center>
+<center><p><span style="color:white;background-color: black;width: fit-content;"><b>FYI!</b></span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p><br>
+<p><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+<form>
+    <input type="text" placeholder="Name" width="100px"><br><br>
+    <input type="text" placeholder="How Many People" width="400px"><br><br>
+    <input type="datetime-local" width="400px"><br><br>
+    <input type="text" placeholder="Message/special Reqirments" width="400px">
+</form><br>
+<input type="button" class="btn" value="Send Message"><br><br>
+<footer>
+    <p><a href="https://www.w3schools.com/w3css/tryw3css_templates_cafe.html" target="_blank">google.com</a></p>
+</footer></center>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FOOD</title>
+<style>
+    .top{
+    position: fixed;
+    top: 0;
+    width: 99%;
+    z-index: 1;
+    background-color: antiquewhite;
+}
+.left{
+    float: left!important;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.right{
+    float: right!important;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.center{
+    text-align: center;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.grid-container{
+    display: grid;
+    column-gap: 50px; 
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+
+}
+.middle{
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    float: left;
+}
+.buttons{
+    margin-left: 50px;
+    color: black;
+    cursor: pointer;
+}
+.blog{
+    margin-left: 100px;
+}
+.hoverable:hover{
+    color:darkgray;
+    background-color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width:600px) {
+body{
+max-width: 100%;
+height: auto;
+background-color: gray;
+}
+img{
+max-width: 100%;
+}
+.middle img{
+    width: 300px;
+    height: 200px;
+}
+.top{
+    max-width: 100%
+  }    
+}
+
+</style>
+
+</head>
+<body>
+    <div class="top">
+        <div class="left" onclick="open">☰</div>
+        <div class="right">Mail</div>
+        <div class="center">My Food</div>
+    </div>
+    <div class="grid-container">
+   <div class="middle"><img src="https://www.w3schools.com/w3images/sandwich.jpg
+    " alt="sandwich"  width="25%"><h3 margin-top="50px"><a href="https://www.zomato.com/hyderabad" target="_self">Perfect Sandwich</a></h3><p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    <div class="middle"><img src="https://www.w3schools.com/w3images/steak.jpg
+        " alt="steak"  width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_blank">Let Me Tell You About This Steak</a></h3><p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        <div class="middle"><img src="	https://www.w3schools.com/w3images/cherries.jpg" alt="cherries"  width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_self">Cherries, interrupted</a></h3>
+           <p> Lorem ipsum text praesent tincidunt ipsum lipsum.
+            
+            What else?
+            
+            Pasta and Wine</p></div>
+            
+            <div class="middle"><img src="https://www.w3schools.com/w3images/wine.jpg" alt="vp" width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_self">Again, Robust Wine and Vegetable Pasta</a></h3><p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+            
+            <div class="middle"><img src="https://www.w3schools.com/w3images/popsicle.jpg"
+                 alt="ice cream" width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_self"> I Need Is a Popsicle</a></h3><p>
+                    Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+                    <div class="middle"><img src="	https://www.w3schools.com/w3images/salmon.jpg" alt="salmon" width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_self"> For Your Skin</a></h3><p>
+                        Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+                        <div class="middle"><img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="sandwich" width="25%"><h3><a href="https://www.zomato.com/hyderabad" target="_self"> Perfect Sandwich, A Real Classic</a></h3><p>
+                            Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+                        <div class="middle"><img src="https://www.w3schools.com/w3images/croissant.jpg" alt="cr" width="25%"><h3><a href="https://www.zomato.com/hyderabad"  target="_self">French le </a></h3><p>
+                            Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    </div>
+                            <h1>About Me,The Food Man</h1>
+<img src="https://www.w3schools.com/w3images/chef.jpg" alt="" height="800px">
+<center><h2>I am who I am!</h2>
+<p>with passion for Real,Good Food</p>
+<p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p></center>
+<hr>
+<div class="footer">
+    <h3>Footer</h3>
+    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo.</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canva.com%2Fmenus%2F&psig=AOvVaw2c5-N_O5akKToGawsh8Nv1&ust=1685328309047000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDOvaz_lv8CFQAAAAAdAAAAABAE">powered by Google</a>
+</div>
+<div class="footer">
+    <div class="blog"><h3>Blog Posts</h3>
+    <ul>
+        <li list style type="none"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTglBYVH2yuVj4ctIoojm-nybWi3WxVQGRw&usqp=CAU" alt="sk" width="50px" >
+        <span>Lorem</span><br><span>Sed mattis nunc</span></li><br>
+        <li list style type="none"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSASmB0B2vywDAUGIKnC2e_aueyDmzhRF0nFg&usqp=CAU" alt="" width="50px" height="50px">
+<span>Ipsum</span><br><span>Praes tinci sed</span>
+    </ul></div>
+</div>
+<div class="footer">
+    <div class="buttons"><h3>Popular Tags</h3>
+    <input type="button" value="Travel" class="hoverable">
+    <input type="button" value="New York" class="hoverable">
+    <input type="button" value="Dinner" class="hoverable"><br><br><br>
+    <input type="button" value="Salmon" class="hoverable">
+    <input type="button" value="France" class="hoverable">
+    <input type="button" value="Drinks" class="hoverable">
+    <input type="button" value="Ideas" class="hoverable"><br><br><br>
+    <input type="button" value="flavours" class="hoverable">
+    <input type="button" value="Cuisine" class="hoverable">
+    <input type="button" value="Chicken" class="hoverable">
+    <input type="button" value="Organic" class="hoverable">
+    <input type="button" value="Authentic" class="hoverable"></div>
+</div>
+
+</body>
+</html>
