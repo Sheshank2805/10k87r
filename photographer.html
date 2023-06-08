@@ -35,11 +35,85 @@
         display: flex;
         
     }
+    .skills{
+text-align: center;
+    }
+   div h3{
+    display: inline-block;
+   }
+     .download:hover{
+     opacity: 0.5;
+     }   
+     div li{
+        list-style-type: none;
+        text-align: center;
+     }
+     .card{
+     display: flex;
+     justify-content: space-evenly;
+     }
+     .card1:hover{
+        opacity: 0.5;
+     }
+     .card2:hover{
+        opacity: 0.5;
+     }
+     .rep{
+        display: flex;
     
-        
-    
-    
-
+     }
+     .rep2{
+        display: flex;
+     }
+    .image-container{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 400px 400px;
+        gap: 10px;
+    }
+    input{
+        color: gray;
+        background-color: azure;
+        margin-left: 300px;
+        width: 60%;
+        height: 40px;
+    }
+    #request:hover{
+        background-color:bisque ;
+        opacity: 0.5;
+    }
+    .foot{
+        height: 100px;
+        width:100%;
+        color: gray;
+        font-size: 30px;
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    #fb:hover{
+        opacity: 0.5;
+    }
+    #inst:hover{
+        opacity: 0.5;
+    }
+    #snap:hover{
+        opacity: 0.5;
+    }
+    #pin:hover{
+        opacity: 0.5;
+    }
+    #tweet:hover{
+        opacity: 0.5;
+    }
+    #link:hover{
+        opacity: 0.5;
+    }
+    @media screen and (min-width:320px) and (max-width:600px) {
+      body{
+        max-width: 100%;
+        height: auto;
+      }  
+    }
       
     
     
@@ -50,30 +124,107 @@
     <div class="nav">
          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="" >
        <i class="fa fa-home" style="color: azure; font-size: 50px;"></i>
-       <h4 style="color: azure;">HOME</h4>
+       <a href="#HOME" style="text-decoration: none;color: azure;"><h4 style="color: azure;">HOME</a></h4>
        <i class="fa fa-user" style="color: azure; font-size: 50px;"></i>
-       <h4 style="color: azure;">ABOUT</h4>
+       <a href="#ABOUT" style="text-decoration: none;color: azure;"><h4 style="color: azure;">ABOUT</a></h4>
         <i class="fa fa-eye" style="color: azure; font-size: 50px;"></i>
-        <h4 style="color: azure;">PHOTOS</h4>
+        <a href="#PHOTOS" style="text-decoration: none;color: azure;"><h4 style="color: azure;">PHOTOS</a></h4>
         <i class="fa fa-envelope" style="color: azure; font-size: 50px;"></i>
-        <h4 style="color: azure;">CONTACT</h4>
+        <a href="#CONTACT" style="text-decoration: none;color: azure;"><h4 style="color: azure;">CONTACT</a></h4>
     </div>
-    <div class="header">
+    <div id="HOME" style="margin-left: 100px;">
     <header>
     <h1 style="color:azure;font-size: 60px;text-align: center;">I'm John<br>Doe.</h1>
-    <h3 style="color:azure;text-align: center;">Photographer and Web Desinger.</h3>
+    <h2 style="color:azure;text-align: center;">Photographer and Web Desinger.</h2>
     <img src="	https://www.w3schools.com/w3images/man_smoke.jpg" alt="" height="1108" width="992">
 </header></div></div>
-<div class="about">
-    <center><h2 style="color:azure;"><u>MY NAME</u></h2>
+<div id="ABOUT">
+    <center><h1 style="color:azure;"><u>MY NAME</u></h1>
     <p style="color: grey;margin-left: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut placeat officiis accusantium, distinctio cupiditate unde voluptate error, nulla, modi id ratione vel repellendus. Ipsam quos omnis eius error. Dignissimos, ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aut odit sint illo voluptate? Molestias laborum cum earum officiis saepe! Illo qui magnam officiis at deleniti ex odit maiores corrupti!</p></center>
 </div>
 <div class="skills">
-    <h2 style="color:azure;text-align: center;">MY SKILLS</h2>
-   <center><p style="color:gray">Photography</p>
-    <div style="background-color:azure ;height: 10px;width: 60%;">
-        <div style="background-color: gray;height: 10px;width: 50%;"></div>
+    <h2 style="color:azure;">MY SKILLS</h2>
+   <p style="color:gray;">Photography</p>
+    <div style="height:28px;width:60%;background-color:azure;margin-left: 300px;">
+        <div style="height: 28px;width: 95%;background-color: gray;margin-left: 0;"></div></div>
+        <p style="color:gray;">Web Design</p>
+        <div style="height: 28px;width:60%;background-color: azure;margin-left: 300px;">
+            <div style="height:28px;width:85%;background-color: gray;"></div>
+        </div>
+       <p style="color:gray">Photoshop</p>
+       <div style="height: 28px;width:60%;background-color: azure;margin-left: 300px;">
+        <div style="height:28px;width:75%;background-color: gray;"></div>
     </div>
+</div><br><br>
+<div style="height: 100px;width: 60%;background-color: azure;margin-left: 300px;">
+    <h3 style="padding-left: 30px;padding-top: 20px;">11+<br><span>Partners</span></h3>
+     <h3 style="padding-left:60px ;padding-top:20px ;">55+<br><span>Projects Done</span></h3>
+     <h3 style="padding-left:90px ;padding-top:20px ;">89+<br><span>Happy Clients</span></h3>
+     <h3 style="padding-left:120px ;padding-top:20px ;">150+<br><span>Meetings</span></h3>
+</div><br>
+<div class="download"><button style="background-color: azure;height: 50px;margin-left: 300px;"><i class="fa fa-download"></i>Download Resume</button><br><br></div>
+<h2 style="margin-left: 300px;color: azure;">My Price</h2>
+<div class="card">
+<div style="height: 400px;width:300px;background-color: azure;margin-left: 300px;" class="card1">
+    <ul>
+        <li style="color:azure; font-size: 60px;background-color: gray;text-align: center;margin-right:30px;margin-top: 0;">Basic</li><hr style="color: gray;margin-top: 0;width: 100%;">
+        <li style="font-size: 20px;">Web Design</li><br><hr>
+        <li style="font-size: 20px;">5Gb storage</li><br><hr>
+        <li style="font-size: 20px;">Mail Support</li><br><hr>
+        <li style="font-size: 20px;">$10<br><span>per month</span></li><br><hr style="margin-bottom: 0px;">
+        <li style="padding: 20px 30px 15px 50px;background-color: lightgray;border-width: 0; margin: 0;"><button>Sign Up</button></li>
+    </ul>
 </div>
+<div style="height: 400px;width:300px;background-color: azure;margin-right: 300px;" class="card2">
+    <ul>
+        <li style="color:azure; font-size: 60px;background-color: gray;text-align: center;margin-right:30px;margin-top: 0;">Pro</li><hr style="color: gray;margin-top: 0;width: 100%;">
+        <li style="font-size: 20px;">Web Design</li><br><hr>
+        <li style="font-size: 20px;">5Gb storage</li><br><hr>
+        <li style="font-size: 20px;">Endless Support</li><br><hr>
+        <li style="font-size: 20px;">$25<br><span>per month</span></li><br><hr style="margin-bottom: 0px;">
+        <li style="padding: 20px 30px 15px 50px;background-color: lightgray;border-width: 0; margin: 0;"><button>Sign Up</button></li>
+    </ul>
+</div> 
+</div><br><br>
+<h2 style="color: azure;margin-left: 300px;">My Reputation</h2><br>
+<div class="rep"><img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="" height="100px" width="100px" style="border-radius:100% ;margin-left: 300px;"><span><p style="color:gray;margin-left: 20px;">Chris Fox. CEO at Mighty Schools.<br>
+
+    John Doe saved us from a web disaster.</p></span></div><br>
+    <div class="rep2">
+        <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" height="100px" width="100px" style="border-radius: 100%;margin-left: 300px;"><span><p style="color: gray;margin-left: 20px;">Rebecca Flex. CEO at Company.<br>
+
+            No one is better than John Doe.</p></span>
+    </div><br><br><br>
+    <h2 style="color: azure;margin-left: 300px;" id="PHOTOS">My Photos</h2><hr style="color: gray;width:200px ;margin-left: 250px;margin-top: 0;">
+    <div class="image-container" style="margin-left:300px ;">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" alt="" height="400" width="400px">
+        <img src="https://www.w3schools.com/w3images/underwater.jpg" alt="" height="810px" width="400px" style="grid-row:1/3 ;grid-column: 2/3;">
+        <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="" height="1220px" width="400px" style="grid-column:1/2 ;grid-row: 2/5;">
+        <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" height="400px" width="400px" style="grid-row: 3/4;grid-column: 2/3;">
+        <img src="https://www.w3schools.com/w3images/sailboat.jpg" alt="" height="400px" width="400px">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" alt="" height="400px" width="400px" style="grid-row:4/5 ;grid-column: 2/3;">
+        <img src="https://www.w3schools.com/w3images/p6.jpg" alt="" height="400px" width="400px">
+    </div><br><br><br><br>
+    <h1 style="color: azure; margin-left: 300px;" id="CONTACT"> Contact Me</h1><hr style="color: gray;width: 300px;margin-left: 250px;">
+     <div style="margin-left: 300px;"><p style="color: gray;"><i class="fa fa-map-marker" style="color: azure;font-size: 30px;"></i>Chicago,US</p>
+     <p style="color: gray;"><i class="fa fa-phone" style="color: azure;font-size: 30px;"></i>Phone: +00 151515</p>
+     <p style="color: gray;"><i class="fa fa-envelope" style="color: azure;font-size: 30px;"></i>Email: mail@mail.com</p></div><br>
+     <p style="color: gray;margin-left: 300px;">Lets Get in Touch.Send Me a Message:</p>
+     <form>
+        <input type="text" placeholder="Name"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="subject"><br>
+        <input type="text" placeholder="Message"><br>
+     </form><br>
+    <button style="background-color: azure;color:black;margin-left: 300px;height: 50px;" id="request"><i class="fa fa-paper-plane" ></i>Send Message</button><br><br>
+    <footer class="foot">
+        <i class="fa fa-facebook" id="fb"></i>
+        <i class="fa fa-instagram" id="inst"></i>
+        <i class="fa fa-snapchat" id="snap"></i>
+        <i class="fa fa-pinterest" id="pin"></i>
+        <i class="fa fa-twitter" id="tweet"></i>
+        <i class="fa fa-linkedin" id="link"></i><br>
+        <a href="https://github.com/Sheshank2805?tab=projects" target="_blank" style="color: azure;text-decoration: none;font-size: 20px;">powered by Google</a>
+    </footer>
 </body>
 </html>
