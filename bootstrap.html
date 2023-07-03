@@ -7,7 +7,28 @@
     <title>Platform 65</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/8OlVDue7cMdkcdX6Mz3XJP0cCGwd8Vz_cfK4dxKjPIMWzQMK6_5gDQacibyg8OpQgQ" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> 
+     <!-- <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.css"> -->
+     <style>
+      #fb:hover{
+        opacity: 0.5;
+    }
+    #inst:hover{
+        opacity: 0.5;
+    }
+    #snap:hover{
+        opacity: 0.5;
+    }
+    #pin:hover{
+        opacity: 0.5;
+    }
+    #tweet:hover{
+        opacity: 0.5;
+    }
+    #link:hover{
+        opacity: 0.5;
+      }
+     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:aquamarine"
@@ -19,20 +40,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#HOME">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#ABOUT">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Menu
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Non veg-starters</a></li>
-                  <li><a class="dropdown-item" href="#">Veg Starters</a></li>
+                  <li><a class="dropdown-item" href="#NON-VEG">Non veg-starters</a></li>
+                  <li><a class="dropdown-item" href="#VEG">Veg Starters</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Main Course</a></li>
+                  <li><a class="dropdown-item" href="#MAIN">Main Course</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -52,7 +73,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="HOME">
           <div class="carousel-item active">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpF-oPwd4s4RseYjZBQUhPAcHYSjLwYFATwA&usqp=CAU" class="d-block w-100" alt="...">
           </div>
@@ -75,7 +96,7 @@
       </div>
       <div style="display: flex;justify-content: space-evenly;"> 
       <div class="card" style="width: 18rem;background-color: aquamarine;">
-        <div class="card-header" >
+        <div class="card-header" id="NON-VEG" >
           NON-VEG STARTERS
         </div>
         <ul class="list-group list-group-flush">
@@ -88,7 +109,7 @@
         </ul>
       </div>
       <div class="card" style="width: 18rem;background-color: blueviolet;">
-        <div class="card-header">
+        <div class="card-header" id="VEG">
            VEG STARTERS
         </div>
         <ul class="list-group list-group-flush">
@@ -101,7 +122,7 @@
         </ul>
       </div>
       <div class="card" style="width: 18rem;background-color: crimson;">
-        <div class="card-header">
+        <div class="card-header" id="MAIN">
           MAIN COURSE
         </div>
         <ul class="list-group list-group-flush">
@@ -113,7 +134,7 @@
           <li class="list-group-item">Prawns Biryani</li>
         </ul>
       </div></div><br>
-      <h3 style="text-align: center;">Where to find us:</h3>
+      <h3 style="text-align: center;" id="ABOUT">Where to find us: </h3>
       <div style="display: flex;justify-content: center;">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15178.002586974193!2d79.53201952881712!3d18.001954753407727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1686639754469!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" style="height: 100px;text-align: center;">
@@ -125,6 +146,7 @@
         <i class="fa fa-linkedin" id="link"></i><br>
         <a href="https://github.com/Sheshank2805?tab=projects" target="_blank" style="color: azure;text-decoration: none;font-size: 20px;">powered by Google</a>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+      <!-- <script src="./bootstrap-5.3.0-dist/js/bootstrap.js"></script> -->
+</body> 
 </html>
